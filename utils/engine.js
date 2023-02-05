@@ -10,6 +10,7 @@ import { posix } from "https://deno.land/std@0.173.0/path/mod.ts";
 import * as syncTools from "./syncTools.js";
 import format from "https://deno.land/x/date_fns@v2.22.1/format/index.js";
 import addDays from "https://deno.land/x/date_fns@v2.22.1/addDays/index.ts";
+import { config } from "./config.js";
 
 let _silentMode = false;
 
@@ -103,15 +104,7 @@ class DeConf_Package {
     this.id = id;
     this.data = null;
     this.engine = engine;
-    this.colMapper = {
-      places: "place",
-      events: "event",
-      "media-partners": "media-partner",
-      benefits: "benefit",
-      unions: "union",
-      chains: "chain",
-      "other-events": "event",
-    };
+    this.colMapper = config.colMapper;
     this.collections = Object.keys(this.colMapper);
   }
 
