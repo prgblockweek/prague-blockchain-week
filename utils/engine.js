@@ -20,11 +20,11 @@ export class DeConfEngine {
     this.tag = this.options.tag || "dev";
     this.srcDir = this.options.srcDir || "./data";
     this.outputDir = this.options.outputDir || "./dist";
-    this.publicUrl = this.options.publicUrl || "https://data.prgblockweek.com";
+    this.publicUrl = this.options.publicUrl || "https://blockchainweek.github.io/data";
     this.exploreUrl = this.options.exploreUrl ||
-      "https://explore.prgblockweek.com";
+      "https://blockchainweek.github.io/explore";
     this.githubUrl = this.options.githubUrl ||
-      "https://github.com/utxo-foundation/prague-blockchain-week/tree/main/data";
+      "https://github.com/blockchainweek/data/tree/main/data";
 
     if (options.silent) {
       _silentMode = true;
@@ -240,10 +240,7 @@ class DeConf_Collection {
       }
     }
     if (
-      this.dir &&
-      (!data.index.hidden ||
-        this.engine.options.hiddenAllowed &&
-          this.engine.options.hiddenAllowed.includes("bitcoin-prague"))
+      this.dir && !data.index.hidden
     ) {
       const syncDataFn = [this.dir, "data.json"].join("/");
       if (await exists(syncDataFn)) {

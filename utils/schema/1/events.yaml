@@ -1,3 +1,3 @@
 type: array
 items:
-  $ref: https://data.prgblockweek.com/schema/1/event.json
+  $ref: https://blockchainweek.github.io/data/schema/1/event.json

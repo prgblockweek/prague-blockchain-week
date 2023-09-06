@@ -1,8 +1,8 @@
 import { DeConfEngine } from "./engine.js";
 
 const deconf = new DeConfEngine({
-  publicUrl: "https://mirror.data.prgblockweek.com",
-  exploreUrl: "https://mirror.explore.prgblockweek.com",
+  publicUrl: "https://blockchainweek.github.io/data",
+  exploreUrl: "https://blockchainweek.github.io/explore",
   outputDir: "./dist-mirror",
 });
 

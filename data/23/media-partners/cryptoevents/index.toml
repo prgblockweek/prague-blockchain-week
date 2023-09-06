@@ -1,9 +1,0 @@
-name = "CryptoEvents"
-description = "One-stop place for all major summits, conferences, meetups and webinars in the world of Bitcoin and Blockchain technologies."
-logo = "logo.webp"
-languages = ["english"]
-
-[links]
-web = "https://cryptoevents.global/"
-twitter = "https://twitter.com/Crypt0Events"
-telegram = "https://t.me/cryptoeventsglobal"

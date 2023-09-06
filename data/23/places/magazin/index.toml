@@ -1,0 +1,12 @@
+name = "Magazin an der Heeresbäckerei"
+eventTypes = ["conference", "party"]
+capacity = 750
+address = "Köpenicker Straße 16-17, 10997 Berlin-Kreuzberg"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Stra%C3%9Fe+16%2C+10997+Berlin"
+description = '''
+The Heeresbäckerei (magazine in the army bakery) in Berlin-Kreuzberg is an impressive industrial monument located directly at the river Spree. The magazine in the west wing was used as a warehouse since 1890. Lorries with flour and grain travelled on rails between the magazine and the bakery. The brick building has retained its substance over the years. Cast iron columns carry a five-meter-high ceiling. The parquet is made of old beech. Deep arched windows open the room to the light. The result is a magnificent venue with charm - perhaps one of the most beautiful in Berlin-Kreuzberg.
+'''
+photo = "photo.jpg"
+
+[links]
+web = "https://www.magazin-heeresbaeckerei.de/en/"

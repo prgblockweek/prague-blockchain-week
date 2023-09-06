@@ -1,7 +1,0 @@
-name = "Cleevio"
-description = "We focus on Blockchain projects from idea to product."
-logo = "logo.png"
-languages = ["english", "czech", "slovak"]
-
-[links]
-web = "https://www.cleevio.com/"

@@ -9,9 +9,6 @@ const CACHE_DIR = "./cache/twitter-stats";
 import { DeConfEngine } from "./engine.js";
 
 const options = {};
-if (Deno.args[0] === "true") {
-  options.hiddenAllowed = ["bitcoin-prague"];
-}
 
 const dc = new DeConfEngine(options);
 await dc.init();

@@ -1,8 +1,0 @@
-name = "Paralelní Polis"
-description = "art - science - technology"
-languages = ["english"]
-logo = "logo.webp"
-
-[links]
-web = "https://www.paralelnipolis.cz/"
-twitter = "https://twitter.com/Paralelni_polis"
