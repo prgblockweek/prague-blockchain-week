@@ -38,7 +38,7 @@ date = "2023-09-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "08:00 - 21:00"
+times = "08:00-21:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
 venues = ["magazin"]

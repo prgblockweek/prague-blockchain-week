@@ -232,11 +232,11 @@ class DeConf_Collection {
           continue;
         }
         const [sstart, send] = sg.times.split("-");
-        sg.startTime = (new Date(`${sg.date}T${sstart}`)).toISOString();
+        sg.startTime = (new Date(`${sg.date}T${sstart.trim()}`)).toISOString();
         const endDate = send <= sstart
           ? format(addDays(new Date(sg.date), 1), "yyyy-MM-dd")
           : sg.date;
-        sg.endTime = (new Date(`${endDate}T${send}`)).toISOString();
+        sg.endTime = (new Date(`${endDate}T${send.trim()}`)).toISOString();
       }
     }
     if (
