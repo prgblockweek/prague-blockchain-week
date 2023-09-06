@@ -25,7 +25,7 @@ status = "planning"
 org = "Example place"
 
 # the github handle of the directly responsible individual for this event
-# (this person will coordinate with #pbw23 organizers)
+# (this person will coordinate with #bbw23 organizers)
 dri = "john007"
 
 # A point of contact (responsible person)
@@ -46,7 +46,7 @@ times = "09:00 - 20:00"
 # the event venue name
 venueName = "Example venue"
 
-# link to the venue on google maps 
+# link to the venue on google maps
 venueUrl = "https://goo.gl/maps/example"
 
 # the event venue address
@@ -87,7 +87,7 @@ price = "100 EUR"
 # link to the registration or ticket purchase page
 link = "https://example.org/tickets"
 
-# custom action button label 
+# custom action button label
 #button = "Buy tickets!"
 
 # status of registrations

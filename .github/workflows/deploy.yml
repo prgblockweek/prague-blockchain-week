@@ -1,7 +1,7 @@
 name: Test, build, deploy
 env:
   ENTRY: 23
-  GH_PAGES_DOMAIN: blockchainweek.github.io/data
+  GH_PAGES_DOMAIN: blockchainweek.github.io
   DENO_DIR: /home/runner/.deno-cache
 on:
   push:
@@ -61,7 +61,7 @@ jobs:
           name: release
       - uses: montudor/action-zip@v1
       - run: unzip -qq release.zip
-      - run: "zip -qq -r ../pbw-${{ env.ENTRY }}-${{ env.TAG }}.zip ${{ env.ENTRY }}"
+      - run: "zip -qq -r ../bbw-${{ env.ENTRY }}-${{ env.TAG }}.zip ${{ env.ENTRY }}"
         working-directory: ./dist
       - uses: rickstaa/action-create-tag@v1
         with:
@@ -76,7 +76,7 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            pbw-${{ env.ENTRY }}-${{ env.TAG }}.zip
+            bbw-${{ env.ENTRY }}-${{ env.TAG }}.zip
   deploy:
     needs: [build]
     runs-on: ubuntu-latest
