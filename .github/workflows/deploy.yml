@@ -4,9 +4,6 @@ env:
   GH_PAGES_DOMAIN: blockchainweek.github.io
   DENO_DIR: /home/runner/.deno-cache
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 concurrency:
   group: "pages"
