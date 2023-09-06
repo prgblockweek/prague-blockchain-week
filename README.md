@@ -1,7 +1,7 @@
 # Berlin Blockchain Week (BBW)
 
-[![Test, build, deploy](https://github.com/blockchainweek/berlin/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/blockchainweek/berlin/actions/workflows/deploy.yml)
-[![pages-build-deployment](https://github.com/blockchainweek/berlin/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/blockchainweek/berlin/actions/workflows/pages/pages-build-deployment)
+[![Test, build, deploy](https://github.com/blockchainweek/data/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/blockchainweek/data/actions/workflows/deploy.yml)
+[![pages-build-deployment](https://github.com/blockchainweek/data/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/blockchainweek/data/actions/workflows/pages/pages-build-deployment)
 
 A data-first decentralized conference-website developed by
 [UTXO Foundation](https://utxo.foundation/) for Prague.
