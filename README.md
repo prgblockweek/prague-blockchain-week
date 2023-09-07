@@ -8,11 +8,11 @@ A data-first decentralized conference-website developed by
 
 We are using this GitHub repository to coordinate event listings for Berlin.
 
-- 💽 Data: [blockchainweek.github.io/data](https://blockchainweek.github.io/data)
-- 🕵️ Explore: [blockchainweek.github.io/explore](https://blockchainweek.github.io/explore/)
+- 💽 Data: [duplicity6-sulfur-objet0-air1.protocol.berlin](https://duplicity6-sulfur-objet0-air1.protocol.berlin)
+- 🕵️ Explore: [outright6-sear-8gusto-atrium.protocol.berlin](https://outright6-sear-8gusto-atrium.protocol.berlin)
 
 You can use JSON Hero to view the data:
-[`/23/index.json` @ JSON Hero](https://jsonhero.io/new?url=https://blockchainweek.github.io/data/24/index.json)
+[`/23/index.json` @ JSON Hero](https://jsonhero.io/new?url=https://duplicity6-sulfur-objet0-air1.protocol.berlin/23/index.json)
 
 ## Want to add your own event?
 

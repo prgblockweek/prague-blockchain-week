@@ -20,9 +20,9 @@ export class DeConfEngine {
     this.tag = this.options.tag || "dev";
     this.srcDir = this.options.srcDir || "./data";
     this.outputDir = this.options.outputDir || "./dist";
-    this.publicUrl = this.options.publicUrl || "https://blockchainweek.github.io/data";
+    this.publicUrl = this.options.publicUrl || "https://duplicity6-sulfur-objet0-air1.protocol.berlin";
     this.exploreUrl = this.options.exploreUrl ||
-      "https://blockchainweek.github.io/explore";
+      "https://outright6-sear-8gusto-atrium.protocol.berlin";
     this.githubUrl = this.options.githubUrl ||
       "https://github.com/blockchainweek/data/tree/main/data";
 
