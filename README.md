@@ -1,12 +1,11 @@
 # Berlin Blockchain Week (BBW)
 
 [![Test, build, deploy](https://github.com/blockchainweek/data/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/blockchainweek/data/actions/workflows/deploy.yml)
-[![pages-build-deployment](https://github.com/blockchainweek/data/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/blockchainweek/data/actions/workflows/pages/pages-build-deployment)
 
 A data-first decentralized conference-website developed by
 [UTXO Foundation](https://utxo.foundation/) for Prague.
 
-We are using this GitHub repository to coordinate event listings for Berlin.
+We are using this GitHub repository to coordinate event listings for **Berlin**.
 
 - 💽 Data: [duplicity6-sulfur-objet0-air1.protocol.berlin](https://duplicity6-sulfur-objet0-air1.protocol.berlin)
 - 🕵️ Explore: [outright6-sear-8gusto-atrium.protocol.berlin](https://outright6-sear-8gusto-atrium.protocol.berlin)
@@ -22,7 +21,7 @@ Good luck!
 
 - Web: [blockchainweek.berlin](https://blockchainweek.berlin)
 - Twitter: [@BerBlockWeek](https://twitter.com/BerBlockWeek)
-- Matrix: [#blockchainweek:tchncs.de](https://matrix.to/#/%23blockchainweek:tchncs.de)
+- Matrix: [#blockchainweek:dod.ngo](https://matrix.to/#/%23blockchainweek:dod.ngo)
 
 ## License
 
