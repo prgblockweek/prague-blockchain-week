@@ -11,7 +11,7 @@ We are using this GitHub repository to coordinate event listings for **Berlin**.
 - 🕵️ Explore: [outright6-sear-8gusto-atrium.protocol.berlin](https://outright6-sear-8gusto-atrium.protocol.berlin)
 
 You can use JSON Hero to view the data:
-[`/23/index.json` @ JSON Hero](https://jsonhero.io/new?url=https://duplicity6-sulfur-objet0-air1.protocol.berlin/23/index.json)
+[`/24/index.json` @ JSON Hero](https://jsonhero.io/new?url=https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/index.json)
 
 ## Want to add your own event?
 
