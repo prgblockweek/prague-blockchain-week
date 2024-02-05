@@ -1,6 +1,6 @@
 name: Test, build, deploy
 env:
-  ENTRY: 23
+  ENTRY: 24
   GH_PAGES_DOMAIN: blockchainweek.github.io
   DENO_DIR: /home/runner/.deno-cache
 on:
