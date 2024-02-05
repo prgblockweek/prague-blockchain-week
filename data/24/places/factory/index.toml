@@ -1,0 +1,13 @@
+name = "Factory Berlin"
+shortname = "factory"
+eventTypes = ["conference", "hackathon"]
+capacity = 1000
+address = "Lohmühlenstraße 65, 12435 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Lohmuehlenstra%C3%9Fe+65+12435+Berlin"
+description = '''
+Factory Berlin is an ecosystem of over 3,500 members from more than 70 nations located on two campuses – Factory Berlin Görlitzer Park and Factory Berlin Mitte.
+'''
+photo = "photo.jpg"
+
+[links]
+web = "https://factoryberlin.com/spaces/"
