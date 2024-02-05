@@ -1,0 +1,109 @@
+# the name of your event
+name = "ETHBerlin 04"
+
+# shortest possible name (without year)
+shortname = "ETHBerlin"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["hackathon"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Department of Decentralization"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "q9f"
+
+# A point of contact (responsible person)
+poc = "Afri Schoedon"
+
+# the start date of the event
+date = "2024-05-24"
+
+# how many days the event lasts (1 - N)
+days = 3
+
+# the event times (shows up in the event card)
+times = "00:00-24:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["factory"]
+
+# the event venue name
+# venueName = "Example venue"
+
+# link to the venue on google maps
+# venueUrl = "https://goo.gl/maps/example"
+
+# the event venue address
+# venueAddress = "118 Holland St, Somerville, MA 02144"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 800
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum", "polkadot", "cosmos"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["cypherpunk", "privacy", "hacker", "identity"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+ETHBerlin is a hackathon, a cultural festival, an educational event, a platform for hacktivism, and a community initiative to push the decentralized ecosystem forward.
+"""
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "free"
+
+# link to the registration or ticket purchase page
+link = "https://visas.ethberlin.org/ethberlin/4/"
+
+# custom action button label
+button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+web = "https://ethberlin.org/"
+
+# twitter account
+twitter = "https://twitter.com/ETHBerlin"
+
+# public telegram group
+telegram = "https://matrix.to/#/%23ethberlin:dod.ngo"
