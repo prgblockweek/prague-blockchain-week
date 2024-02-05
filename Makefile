@@ -1,8 +1,6 @@
 .PHONY: all build
 
-all: test build
-
-mirror: test build-mirror
+all: test imgs build
 
 test:
 	deno test --unstable --allow-read utils/test.js
@@ -18,9 +16,6 @@ fmt: format
 build:
 	deno --version
 	deno run --unstable --allow-read --allow-write utils/build.js tag=$(tag)
-
-build-mirror:
-	deno run --unstable --allow-read --allow-write utils/mirror.js
 
 sync:
 	deno run --unstable --allow-read --allow-write --allow-net utils/sync.js $(event)

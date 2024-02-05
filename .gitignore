@@ -1,6 +1,5 @@
 .DS_Store
 dist
-dist-mirror
 cache
 .env
 .vscode
