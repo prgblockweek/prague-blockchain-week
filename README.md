@@ -15,7 +15,8 @@ You can use JSON Hero to view the data:
 
 ## Want to add your own event?
 
-Good luck!
+Go to the issues, hit **NEW** and choose **UPDATE/NEW EVENT**:
+* https://github.com/blockchainweek/data/issues/new/choose
 
 ## Follow us!
 
