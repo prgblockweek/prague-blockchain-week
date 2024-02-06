@@ -1,12 +1,12 @@
 name = "c-base"
 eventTypes = ["conference", "meetup"]
-capacity = 300
+capacity = 100
 address = "Rungestraße 20, 10179 Berlin"
 mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
 description = '''
-Tje c-base station is a hacker space and also used by initiatives and groups in and around Berlin as an event location or as function rooms, for example the wireless community network freifunk.net, the Chaos Computer Club and the Berlin Wikipedia group. Any group that identifies themselves with the purpose of the c-base are also welcome to use the premises for meetings and events.
+c-base space station is a hacker space.
 '''
 photo = "logo.webp"
 
 [links]
-web = "https://c-base.org/"
+web = "https://c-base.org"
