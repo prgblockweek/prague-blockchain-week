@@ -1,0 +1,7 @@
+name = "Department of Decentralization"
+description = "The Department of Decentralization (DoD) is a collective of people from various crypto- and blockchain communities in and around Berlin. The group first assembled in 2018 to organize ETHBerlin and has been active since."
+logo = "logo.png"
+
+[links]
+web = "https://dod.ngo/"
+twitter = "https://twitter.com/dod_berlin"
