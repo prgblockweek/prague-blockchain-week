@@ -72,11 +72,11 @@ attendees = 600
 
 # blockchains that the event deals with
 # if it is an interchain event, then leave blank
-chains = ["example"]
+chains = ["ethereum", "polkadot"]
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["solarpunk"]
+tags = ["solarpunk", "cryptography"]
 
 # A logo attachment
 logo = "logo.png"
@@ -85,6 +85,10 @@ logo = "logo.png"
 description = """
 Lorem ipsum ...
 """
+
+[cfp]
+# link to call for particioation
+link = "https://example.com/speaker"
 
 [registration]
 # type of registration
@@ -123,4 +127,7 @@ telegram = "https://t.me/example"
 
 # docs
 #docs = "https://example.org/docs"
+
+# discord
+discord = "https://discord.com/invite/AsDf1337"
 ```
