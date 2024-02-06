@@ -1,0 +1,69 @@
+# the name of your event
+name = "Web3privacy now meetup"
+
+# shortest possible name (without year)
+shortname = "W3PN"
+
+# type of the event
+types = ["meetup"]
+
+# status of the event
+status = "planning"
+
+# the name of the group organizing the event
+org = "Web3Privacy now"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "burningtree"
+
+# A point of contact (responsible person)
+poc = "https://matrix.to/#/#web3privacy:matrix.org"
+
+# the start date of the event
+date = "2024-05-22"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "15:00-21:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["cbase"]
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 300
+
+# tags for the event, will show up as labels.
+tags = ["lunarpunk", "privacy", "censorship resistance", "cypherphunk"]
+
+# A logo attachment
+logo = "logo.jpg"
+
+# a description of the event.
+description = "Web3Privacy now community presents core meetup of the privacy enthusiasts @ ETHBerlin 4. Explore the latest privacy market insights, presentations from the key privacy protocols & dApps, talk through regulatory pressure & anti-censorship efforts behind privacy community players"
+
+[registration]
+type = "signup"
+
+# price of the ticket
+price = "TBD"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/w3pn-meetup-berlin1"
+
+# status of registrations
+status = "available"
+
+[links]
+web = "http://web3privacy.info"
+
+# twitter account
+twitter = "https://twitter.com/web3privacy"
+
+# public telegram group
+telegram = "https://t.me/web3privacynow"
