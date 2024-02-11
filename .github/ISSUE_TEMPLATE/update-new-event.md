@@ -3,8 +3,7 @@ name: Update/New Event
 about: Ask us to update or add a new event to the Berlin Blockchain Week website
 title: "[NEW]: "
 labels: new
-assignees: ''
-
+assignees: ""
 ---
 
 Please use this template to suggest a new event or update an existing event for the BBW website! You can also directly [submit your event as a pull request](https://github.com/blockchainweek/data/tree/main/data/24/events) to this repository. This will speed up things significantly!
@@ -121,6 +120,9 @@ web = "https://example.org/"
 
 # twitter account
 twitter = "https://twitter.com/ExampleConf"
+
+# public matrix channel
+matrix = "https://matrix.to/#/!example:example.org"
 
 # public telegram group
 telegram = "https://t.me/example"
